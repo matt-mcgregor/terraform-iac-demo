@@ -95,7 +95,7 @@ Saved the plan to: terraform-iac-demo.plan
 To perform exactly these actions, run the following command to apply:
     terraform apply "terraform-iac-demo.plan"
 ```
-Then build the terraform plan:
+Then deploy the resource based on the plan:
 ```
 make deploy
 ```
