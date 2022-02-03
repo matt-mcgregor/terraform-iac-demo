@@ -1,0 +1,12 @@
+version: '3.2'
+
+services:
+  terraform:
+    image: ${IMAGE_NAME}:${IMAGE_TAG}
+    user: ${USER_ID}:${GROUP_ID}
+    working_dir: /app
+    environment:
+      AWS_SHARED_CREDENTIALS_FILE: /app/.aws/credentials
+    volumes:
+      - .:/app:rw
+
