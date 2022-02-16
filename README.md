@@ -4,7 +4,7 @@ An example of creating and publishing a docker image to support a consistent inf
 
 ### Prerequisites
 
-* File called 'credentials' in an .aws folder (root of this repository) containing either JWT token or access keys. You can run ```aws configure``` to generate this file, then copy it from your ~/.aws folder to the repository root.
+* Create a file called 'credentials' in an .aws folder (root of this repository) containing either JWT token or access keys. You can run ```aws configure``` to generate this file, then copy it from your ~/.aws folder to the repository root.
 
 ```
 [default]
